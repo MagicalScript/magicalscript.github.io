@@ -2,29 +2,27 @@
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
-  subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
+  title: "Salut, je suis Ezzaky Abdellah",
+  subTitle:`Je suis un développeur web Full stack qui recherche de nouvelles technologies et les meilleures techniques pour construire le prochain logiciel.`,
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/MagicalScript",
+  linkedin: "https://www.linkedin.com/in/abdellah-ezzaky-353077111/",
+  gmail: "magicalscript@hotmail.fr",
 };
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  title: "Développeur Web fullstack",
+  subTitle: "Je suis un développeur web Full stack qui recherche de nouvelles technologies et les meilleures techniques pour construire le prochain logiciel.",
   skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    "⚡ Développez des backend / serveur, des application et des base de données communiquer entre eux, en utilisant des langages côté serveur comme PHP, .Net, Java et Python pour créer une application, et des outils comme MySQL, Oracle et SQL Server pour rechercher, enregistrer ou modifier les données et les renvoyer à l'utilisateur dans le code frontal.",
+    "⚡ Développez des interfaces utilisateur / frentend hautement interactives pour vos applications Web et mobiles",
+    "⚡ Applications Web progressives (PWA) dans les piles normales et SPA",
+    "⚡ Intégration de services tiers tels que Firebase / AWS / Digital Ocean"
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon */
@@ -42,11 +40,23 @@ const skillsSection = {
     {
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
+    }, 
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    }, 
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
@@ -76,22 +86,20 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
+
   ]
 };
 
 const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
-
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
+  OpenSourceProjects: "Projets Open Source",
+  MoreProjects: "Plus de projets",
+  githubConvertedToken: "MDE3YTczMTAzMjgwYzQ4ZGJmZGM0MDE4ZGRmOTdjNGQyNjkxMGMwYw==",
+  githubUserName: "magicalscript"
 };
 
 const bigProjects = {
@@ -151,9 +159,33 @@ const blogSection = {
   /* Blogs Section */
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
+  subtitle: "Avec amour pour développer des trucs sympas. j'aime écrire et enseigner aux autres ce que j'ai appris",
 
   blogs: [
+    {
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+    },
+    {
+      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      image: "https://miro.medium.com/max/1280/1*o08b2PW-1PVs94riZuhNMA.png",
+      title: "Why REACT Is The Best?",
+      description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
+    },
+    {
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+    },
+    {
+      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      image: "https://miro.medium.com/max/1280/1*o08b2PW-1PVs94riZuhNMA.png",
+      title: "Why REACT Is The Best?",
+      description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
+    },
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
@@ -197,10 +229,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: "Contact Me ☎️",
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  title: "Contactez moi ☎️",
+  subtitle: "Discutez d'un projet ou voulez juste dire bonjour ma boîte de réception est ouverte à tous",
+  number: "+212 620352430",
+  email_address: "magicalscript@hotmail.fr"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };
