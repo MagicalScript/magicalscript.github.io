@@ -11,7 +11,7 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/MagicalScript",
   linkedin: "https://www.linkedin.com/in/abdellah-ezzaky-353077111/",
-  gmail: "magicalscript@hotmail.fr",
+  gmail: "magicalscript@hotmail.fr"
 };
 
 const skillsSection = {
